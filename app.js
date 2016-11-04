@@ -1,20 +1,3 @@
-# Reactive Programming with RxJS
-
-Exploring the Basics of RxJS:
-
-## Getting Started
-
-1. clone this repo
-2. run `$ npm i`
-3. run `$ node app.js`
-
-## Annotated Source Code
-
-I've included in the readme so that you can get an idea for the code,
-with syntax highlighting, without having to do too much work.
-
-```javascript
-
 'use strict'
 
 var Rx = require('rxjs')
@@ -106,5 +89,3 @@ subscription2.unsubscribe()
 
  subject.next(1)
  subject.next(2)
-
-```
